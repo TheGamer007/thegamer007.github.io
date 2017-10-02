@@ -47,7 +47,8 @@ One good reason to set these tags is because leaving them as default would gener
 
 ### Customising content
 
-> Note: The content can either be rendered from Markdown files, or from HTML files. If you use Markdown, Jekyll generates the HTML file that will render the webpage. **This site was made using Markdown files, and hence only covers the same process **
+> Note: The content can either be rendered from Markdown files, or from HTML files. If you use Markdown, Jekyll generates the HTML file that will render the webpage. **This site was made using Markdown files, and hence only covers the same process**
+
 The content shown on your website is taken directly from the `index.md` file by default. The auto-generated `index.md` file has a lot of text demostrating the basic Markdown syntax. Jekyll then applies the default html and css formatting to your content based on your selected theme.
 
 ### Customising the layouts
