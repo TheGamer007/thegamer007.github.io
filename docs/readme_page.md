@@ -1,4 +1,8 @@
-# thegamer007.github.io
+---
+title: Documentation
+---
+
+
 This README details the making of this website, and can be a helpful resource for anyone wishing to implement some or all of the features I've added.
 
 ## Initialisation
