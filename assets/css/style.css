@@ -273,9 +273,15 @@ header h2 { width: 540px; margin-top: 0; margin-bottom: 0; font-size: 26px; font
 
 #main-content img { max-width: 100%; }
 
-aside#sidebar { float: right; width: 200px; min-height: 504px; padding-left: 20px; font-size: 12px; line-height: 1.3; background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat; }
+aside#sidebar { float: left; width: 200px; min-height: 504px; padding-right: 45px; font-size: 12px; line-height: 1.3; background: transparent url(../images/sidebar-left-bg.jpg) right content-box no-repeat; }
 
 aside#sidebar p.repo-owner, aside#sidebar p.repo-owner a { font-weight: bold; }
+
+aside ul {list-style-type: none; margin: 0; padding: 0;}
+
+aside li a {display: block; padding: 8px 16px; color: #000; text-decoration: none; font-weight: bold;}
+
+aside li a:hover { background-color: #EEEEEE;}
 
 #downloads { margin-bottom: 40px; }
 
