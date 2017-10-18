@@ -1,6 +1,7 @@
 ---
 title: Customising the website using Jekyll themes
 prev: /docs/create_website
+next: /docs/add_pages
 ---
 # Customising the Website (using Jekyll Themes)
 
@@ -44,7 +45,7 @@ So the `_layouts/default.html` file from the theme repo goes into a correspondin
 
 Once this is done, Jekyll will use these files to generate the page rather than the default theme files. So, any changes you make to these files will affect the way your site looks.
 
-If you aren't that well-versed with web development, then keep in mind that the `default.html` file is the HTML file that will determine how your content is placed. You need to edit this to add new elements, or to remove ones that you don't need.
+If you aren't that well-versed with web development, then keep in mind that `default.html` is the file that will determine how your content is structured. You need to edit this to add new elements, or to remove ones that you don't need.
 
 The `assets/css/styles.css` file provides CSS based style formatting to your HTML elements. This is where you can change the font colour, font size, and other properties that affect the visual of the site.
 

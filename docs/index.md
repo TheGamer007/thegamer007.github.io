@@ -2,6 +2,11 @@
 title: Docs Home
 ---
 
+## [Adding webpages to your website](/docs/add_pages)
+18 October 2017
+
+Sorting content into multiple pages based on topic is more user-friendly than a single page filled with text. [\>\>](/docs/add_pages)
+
 ## [Customising the website using Jekyll themes](/docs/customise_website)
 02 October 2017
 
