@@ -2,6 +2,11 @@
 title: Docs Home
 ---
 
+## [Adding a Navigation Bar](/docs/add_navbar)
+24 October 2017
+
+Providing simpler navigation to important sections of your website. [\>\>](/docs/add_navbar)
+
 ## [Adding webpages to your website](/docs/add_pages)
 18 October 2017
 

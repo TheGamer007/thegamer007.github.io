@@ -1,6 +1,7 @@
 ---
 title: Adding webpages to your website
 prev: /docs/customise_website
+next: /docs/add_navbar
 ---
 
 # Adding multiple pages
