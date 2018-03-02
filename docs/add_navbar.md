@@ -1,6 +1,7 @@
 ---
 title: Adding a Navigation Bar
 prev: /docs/add_pages
+next: /docs/add_about
 ---
 
 # Adding a Navigation Bar

@@ -2,6 +2,11 @@
 title: Docs Home
 ---
 
+## [Adding an About Section](/docs/add_about)
+2 March 2018
+
+A page to showcase yourself, and all your works. [\>\>](/docs/add_about)
+
 ## [Adding a Navigation Bar](/docs/add_navbar)
 24 October 2017
 
