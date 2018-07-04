@@ -2,6 +2,11 @@
 title: Docs Home
 ---
 
+## [Making the NavBar mobile friendly](/docs/navbar_mobile_update)
+05 July 2018
+
+Making the navigation suit smaller screen sizes better. [\>\>](/docs/navbar_mobile_update)
+
 ## [Adding an About Section](/docs/add_about)
 2 March 2018
 

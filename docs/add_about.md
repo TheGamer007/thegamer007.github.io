@@ -1,6 +1,7 @@
 ---
 title: Making of the About Section
 prev: /docs/add_navbar
+next: /docs/navbar_mobile_update
 ---
 
 # Making of the About Section
