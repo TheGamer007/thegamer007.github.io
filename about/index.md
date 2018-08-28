@@ -22,10 +22,6 @@ profile-pic-path: /assets/images/dev_akhil.png
   <tr>
     <td> <a href="https://stackoverflow.com/users/story/6698642" target="_blank"> <img src="/assets/images/stackoverflow.svg" alt="StackOverflow" style="height:40px;border:0;"> </a> </td>
 
-    <td> <a href="https://auth.geeksforgeeks.org/user/TheGamer007/" target="_blank" style="color:green"> <b> GeeksForGeeks </b> </a> </td>
-  </tr>
-
-  <tr>
     <td> <a href="https://www.interviewbit.com/profile/shriakhilc" target="_blank"> <img src="/assets/images/interviewbit.svg" alt="InterviewBit" style="height:30px;border:0;"> </a> </td>
   </tr>
 </table>
