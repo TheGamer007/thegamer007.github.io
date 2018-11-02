@@ -1,33 +1,15 @@
 ---
-title: Docs Home
+title: Docs
+weight: 2
 ---
 
-## [Making the NavBar mobile friendly](/docs/navbar_mobile_update)
-05 July 2018
+This section contains documentation of the latest version of this site. The [_Legacy Docs_](/docs/legacy/index) section contains information about older versions, leading back till the creation of this repo.
 
-Making the navigation suit smaller screen sizes better. [\>\>](/docs/navbar_mobile_update)
+Newer posts appear on the top.
 
-## [Adding an About Section](/docs/add_about)
-2 March 2018
+***
 
-A page to showcase yourself, and all your works. [\>\>](/docs/add_about)
+##### [Updating the blog to v2.0](/docs/update_to_v2)
+_02 November 2018_
 
-## [Adding a Navigation Bar](/docs/add_navbar)
-24 October 2017
-
-Providing simpler navigation to important sections of your website. [\>\>](/docs/add_navbar)
-
-## [Adding webpages to your website](/docs/add_pages)
-18 October 2017
-
-Sorting content into multiple pages based on topic is more user-friendly than a single page filled with text. [\>\>](/docs/add_pages)
-
-## [Customising the website using Jekyll themes](/docs/customise_website)
-02 October 2017
-
-How to modify various aspects of the generated website, including the visuals and basic SEO. [\>\>](/docs/customise_website)
-
-## [Creating a website using GitHub Pages](/docs/create_website)
-02 October 2017
-
-How to get started with creating a website using GitHub Pages, and installing Jekyll locally in order to test changes before pushing them. [\>\>](/docs/create_website)
+A major visual and functional overhaul to the site.

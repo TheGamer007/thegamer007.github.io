@@ -1,9 +1,18 @@
 ---
 title: About Me
-layout: about
-profile-pic-path: /assets/images/dev_akhil.png
+weight: 3
 ---
-<br/>
+
+<img src="/assets/images/dev_akhil.png" alt="A photo of me" align="right">
+
+#### C. Shri Akhil
+##### Google Certified Associate Android Developer
+
+Hi there! I'm Akhil, aka **TheGamer007**, a fourth year undergraduate engineering student at BITS Pilani, Hyderabad Campus, India. I made this site while trying to learn more about GitHub Pages, and I plan to maintain it as a blog. This page in particular serves as a focal point that ties my relevant online profiles together.
+
+You can check out my resume [here](https://drive.google.com/file/d/16BzwtIgowVthSztk45oTQLsGLpBK67TT/view?usp=sharing)
+
+#### Online Profiles
 <table>
   <tr>
     <td rowspan="5"> <a href="https://www.credential.net/oznjxl5v" target="_blank"> <img src="/assets/images/aad.png" alt="AAD Certificate" style="height:150px;border:0;"> </a> </td>
@@ -26,15 +35,12 @@ profile-pic-path: /assets/images/dev_akhil.png
   </tr>
 </table>
 <br/>
-Hi there! I'm Akhil, aka _TheGamer007_, a fourth year undergraduate engineering student at BITS Pilani, Hyderabad Campus, India. This page acts as a focal point connecting most of my profiles online, making it easier to share all of them.  
 
-You can check out my resume [here](https://drive.google.com/file/d/16BzwtIgowVthSztk45oTQLsGLpBK67TT/view?usp=sharing)
-
-### Contact Details
+#### Contact Details
 
 If you'd like to discuss something, drop me an email at ![](/assets/images/email_id.png)
 
-### Acknowledgements
-A list of open source libraries / resources used in the website.
+#### Acknowledgments
+A list of open source resources that helped shape this website
 
-\* The default [Architect theme](https://github.com/pages-themes/architect) which was modified to make this site.
+\* The [Jekyll MaterialDocs](https://github.com/chromatical/jekyll-materialdocs/) theme, which was modified to make this site.

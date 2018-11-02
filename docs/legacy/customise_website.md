@@ -1,20 +1,20 @@
 ---
 title: Customising the website using Jekyll themes
-prev: /docs/create_website
-next: /docs/add_pages
+parent: docs/legacy.md
+prev: /docs/legacy/create_website
+next: /docs/legacy/add_pages
 ---
-# Customising the Website (using Jekyll Themes)
 
 Now that you have the website up and running, it's time to take advantage of Jekyll's features in order to personalize the visuals and behaviour. As mentioned earlier, you can use a number of available Jekyll themes out-of-the-box in order to generate a website to your liking. However, if you wish to modify some of the behaviour provided, read on.
 
-## Jekyll Themes
+#### Jekyll Themes
 
 From the [Jekyll Docs](https://jekyllrb.com/docs/themes/):
-> Jekyll has an extensive theme system that allows you to leverage community-maintained templates and styles to customize your site’s presentation. Jekyll themes package up layouts, includes, and stylesheets in a way that can be overridden by your site’s content.
+><br/> Jekyll has an extensive theme system that allows you to leverage community-maintained templates and styles to customize your site’s presentation. Jekyll themes package up layouts, includes, and stylesheets in a way that can be overridden by your site’s content.
 
 Themes allow you to mirror the look and feel of the corresponding website by providing the relevant layouts and stylesheets, thus reducing the code you need to write. Since most themes have active contributors, you can be certain that basic functionality will not have any obvious bugs. The themes themselves are Open Source, and have Github repos.
 
-### Adding a theme
+##### Adding a theme
 
 Go to the Settings section of your repo and scroll down to the **Github Pages** heading. This contains the status of your website, which branch it uses as the source to generate the site, the chosen theme and custom domain options. We are interested in choosing a theme.
 
@@ -22,20 +22,20 @@ Clicking the "Choose Theme" button provides a gallery of some of the popular the
 
 [This page](https://github.com/jekyll/jekyll/wiki/themes) from the Jekyll wiki provides a (non-exhaustive) list of all the themes that you can use in order to render your site.
 
-## Customising various features
+#### Customising various features
 
 There are three primary areas which you would want to modify:
 * The textual content of each post/page on the site
 * The visual representation of this content (HTML/CSS).
 * The metadata and SEO tags that affect online searches
 
-### Customising content
+##### Customising content
 
-> Note: The content can either be rendered from Markdown files, or from HTML files. If you use Markdown, Jekyll generates the HTML file that will render the webpage. **This site was made using Markdown files, and hence only covers the same process**
+><br/> The content can either be rendered from Markdown files, or from HTML files. If you use Markdown, Jekyll generates the HTML file that will render the webpage. **This site was made using Markdown files, and hence only covers the same process**
 
 The content shown on your website is taken directly from the `index.md` file by default. The auto-generated `index.md` file has a lot of text demostrating the basic Markdown syntax. Jekyll then applies the default html and css formatting to your content based on your selected theme.
 
-### Customising the layouts
+##### Customising the layouts
 
 While the theme default layouts are great, if you want to change any attribute such as formatting or if you want to remove some elements, you need to implement your own files.
 
@@ -49,7 +49,7 @@ If you aren't that well-versed with web development, then keep in mind that `def
 
 The `assets/css/styles.css` file provides CSS based style formatting to your HTML elements. This is where you can change the font colour, font size, and other properties that affect the visual of the site.
 
-### Customising metadata and seo tags
+##### Customising metadata and seo tags
 
 The content shown on the page is taken from the corresponding files, but the Title, Description and some other parameters such as the text displayed on the browser tab are determined by metadata.
 

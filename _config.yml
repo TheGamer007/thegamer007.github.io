@@ -1,3 +1,6 @@
-theme: jekyll-theme-architect
+theme: jekyll-materialdocs
 title: In Search Of Magic
 description: TheGamer007's personal blog
+copyright: C. Shri Akhil
+menu_style: dropdown
+mdl_colors: indigo-blue

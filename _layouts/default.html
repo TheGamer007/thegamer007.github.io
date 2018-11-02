@@ -1,55 +1,55 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html>
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
-    <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-{% seo %}
+    {% include head.html %}
   </head>
-
   <body>
-    <header>
-      <div class="inner">
-        <a href="{{ '/' | absolute_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-      </div>
-    </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-          <aside id="sidebar">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/docs/">Docs</a></li>
-                    <li><a href="/about/">About</a></li>
-                </ul>
-          </aside>
-
-        <section id="main-content">
-          {{ content }}
-          {% if page.next or page.prev %}
-              <div class="clearfix">
-                {% if page.prev %}
-                  <span style="float: left;"><a href="{{ page.prev }}">Previous</a></span>
-                {% endif %}
-                {% if page.next %}
-                  <span style="float: right;"><a href="{{ page.next }}">Next</a></span>
-                {% endif %}
-              </div>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">
+            {% if page.title %}<h1 id="page-title" class="mdl-typography--title">{{ page.title }}</h1>{% endif %}
+          </span>
+          {% if site.search != false %}
+            <div class="mdl-layout-spacer"></div>
+            <a href="{{ site.baseurl }}{% link assets/search.html %}" class="mdl-button mdl-js-button mdl-button--icon">
+              <i class="material-icons">search</i>
+            </a>
           {% endif %}
-        </section>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          {% if site.logo %}
+            <img src="{{ site.logo | absolute_url }}" alt="" id="site-logo">
+          {% endif %}
+          <a id="site-title" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
+        </span>
+        <nav class="mdl-navigation">
+          {% include menu.html %}
+        </nav>
       </div>
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <div class="content">
+            {{ content }}
+            {% if page.next or page.prev %}
+                <div class="clearfix">
+                  {% if page.prev %}
+                    <span style="float: left;"><a href="{{ page.prev }}">Previous</a></span>
+                  {% endif %}
+                  {% if page.next %}
+                    <span style="float: right;"><a href="{{ page.next }}">Next</a></span>
+                  {% endif %}
+                </div>
+            {% endif %}
+          </div>
+        </div>
+      </main>
+      <footer>
+        {% include footer.html %}
+      </footer>
     </div>
-
   </body>
 </html>
