@@ -33,6 +33,10 @@
       <main class="mdl-layout__content">
         <div class="page-content">
           <div class="content">
+            {% if page.date %}
+            Published on: <i>{{ page.date }}</i>
+            <br/><br/>
+            {% endif %}
             {{ content }}
             {% if page.next or page.prev %}
                 <div class="clearfix">

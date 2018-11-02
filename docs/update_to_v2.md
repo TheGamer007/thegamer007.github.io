@@ -2,9 +2,9 @@
 title: Updating the blog to v2.0
 parent: docs/index.md
 menu: false
+next: /docs/update_contd
+date: 02 November 2018
 ---
-
-_02 November 2018_
 
 It's been a long time since I updated the blog, so I decided to go a step further and try giving it an overhaul. As you can see, the results are promising.
 

@@ -9,6 +9,11 @@ Newer posts appear on the top.
 
 ***
 
+##### [Polishing the update](/docs/update_contd)
+_03 November 2018_
+
+Making tweaks, and fixing unexpected errors.
+
 ##### [Updating the blog to v2.0](/docs/update_to_v2)
 _02 November 2018_
 
