@@ -10,7 +10,7 @@ Now that you have the website up and running, it's time to take advantage of Jek
 #### Jekyll Themes
 
 From the [Jekyll Docs](https://jekyllrb.com/docs/themes/):
-><br/> Jekyll has an extensive theme system that allows you to leverage community-maintained templates and styles to customize your site’s presentation. Jekyll themes package up layouts, includes, and stylesheets in a way that can be overridden by your site’s content.
+> Jekyll has an extensive theme system that allows you to leverage community-maintained templates and styles to customize your site’s presentation. Jekyll themes package up layouts, includes, and stylesheets in a way that can be overridden by your site’s content.
 
 Themes allow you to mirror the look and feel of the corresponding website by providing the relevant layouts and stylesheets, thus reducing the code you need to write. Since most themes have active contributors, you can be certain that basic functionality will not have any obvious bugs. The themes themselves are Open Source, and have Github repos.
 
@@ -31,7 +31,7 @@ There are three primary areas which you would want to modify:
 
 ##### Customising content
 
-><br/> The content can either be rendered from Markdown files, or from HTML files. If you use Markdown, Jekyll generates the HTML file that will render the webpage. **This site was made using Markdown files, and hence only covers the same process**
+> The content can either be rendered from Markdown files, or from HTML files. If you use Markdown, Jekyll generates the HTML file that will render the webpage. **This site was made using Markdown files, and hence only covers the same process**
 
 The content shown on your website is taken directly from the `index.md` file by default. The auto-generated `index.md` file has a lot of text demostrating the basic Markdown syntax. Jekyll then applies the default html and css formatting to your content based on your selected theme.
 
@@ -58,12 +58,12 @@ This metadata is taken from two sources: The `_config.yml` file and the YAML Fro
 The `_config` file has overall site based tags, such as `title`,`author` and `description`. This `title` and `description` are the ones shown in the header of the default page.
 
 YAML Front Matter is of the form
-```
+{% highlight markdown%}
 ---
 title: Home
 layout: default
 ---
-```
+{% endhighlight %}
 where the two `---` mark the start and end of the tags.
 
 Assuming your `index.md` file provides the YAML `title` as "Home" and your site title in `_config` is "My Site", then the tab in your browser will display: " Home \| My Site ".

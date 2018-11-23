@@ -9,8 +9,7 @@ Having lots of content on one page isn't good UX. Most websites are collections 
 
 It is fairly simple to add a new page using Jekyll. Since it renders HTML pages from Markdown files, all you have to do is add a new markdown file with the content you require. Since visitors do not know how many pages your site has, or the names of files, they cannot visit pages without proper navigation. Multiple topologies are possible for the flow of navigation between your pages. A common case would be providing either a sidebar or a list of hyperlinks that connect all pages of the site in the `/index.md` file, which is loaded for the base URL.
 
-><br/>
-Jekyll makes blogging easier by providing plugins/themes and some built-in functionality that automatically adds posts to the site when a new file is created. This involves saving them to an `_posts/` directory and the filenames being the date of the post. My post however, covers manual addition and linking of pages. You can find more info about the former in the Jekyll Docs.
+> Jekyll makes blogging easier by providing plugins/themes and some built-in functionality that automatically adds posts to the site when a new file is created. This involves saving them to an `_posts/` directory and the filenames being the date of the post. My post however, covers manual addition and linking of pages. You can find more info about the former in the Jekyll Docs.
 
 #### Making the page
 

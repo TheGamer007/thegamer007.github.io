@@ -6,7 +6,7 @@ next: /docs/legacy/customise_website
 
 The actual setup of the website using Github Pages is left to the detailed guides already provided by Github. I will simply point out some helpful tips and give more details for the Local Jekyll setup.
 
-><br/>I would suggest using Linux or MacOS if you plan to invest heavily into your site, because some Jekyll features (such as autogeneration) are limited in Windows. The following instructions will work for Ubuntu like Linux systems, and the Bash-on-Windows prompt on Windows.
+>I would suggest using Linux or MacOS if you plan to invest heavily into your site, because some Jekyll features (such as autogeneration) are limited in Windows. The following instructions will work for Ubuntu like Linux systems, and the Bash-on-Windows prompt on Windows.
 
 #### Initialization
 The GitHub repository was made as described in the GitHub Pages documentation for making a User or Organization Page. The theme for the site can be selected through the Theme Chooser in the Github Pages section of the repository settings. (more on this in the next post)
@@ -16,7 +16,7 @@ This will generate two files: `_config.yml` and `index.md`. These two files are 
 ##### Local Jekyll Setup
 Since the actual site is updated only when the corresponding files in `master` are changed, we need some way to test out minor edits before performing a final commit.
 
-><br/>Adding [this gitignore file](https://gist.github.com/bradonomics/cf5984b6799da7fdfafd) to your repo before proceeding with the installation would prevent you from accidentally adding unnecessary files to the workspace.
+>Adding [this gitignore file](https://gist.github.com/bradonomics/cf5984b6799da7fdfafd) to your repo before proceeding with the installation would prevent you from accidentally adding unnecessary files to the workspace.
 
 [This guide](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) provides step-by-step instructions on how to setup a local Jekyll installation. However, it misses out on some dependencies that it assumes are available on the user's system. So run the following commands first, then proceed with the earlier guide.
 

@@ -43,8 +43,33 @@ footer{
   padding-right: 8px;
 }
 
+blockquote p {
+    margin: 0px;
+}
+
+blockquote {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  position: relative;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.35;
+  letter-spacing: .08em;
+  margin: 0px 0px 16px 0px;
+  background-color: #fff8dc;
+  border-left: 5px solid #ffeb8e;
+  padding: 10px 5px 5px 10px;
+}
+
+/*  In order to override the default opening and closing quotes that the Material CSS includes*/
+blockquote::before, blockquote::after {
+  position: relative;
+  left: 0em;
+  content: none;
+}
+
 /* Copied from Syntax.css (https://github.com/mojombo/tpw/blob/master/css/syntax.css) */
-.highlight  { background: #ffffff; }
+.highlight  { background-color: #f6f8fa; border-radius: 10px; overflow: auto; padding-left: 8px; margin-left: 0px; margin-bottom: 15px;}
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */

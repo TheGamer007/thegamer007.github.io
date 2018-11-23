@@ -4,7 +4,7 @@ parent: docs/legacy.md
 prev: /docs/legacy/add_about
 ---
 
-><br/> Check out how to add the navbar in my [previous post](/docs/legacy/add_navbar)
+> Check out how to add the navbar in my [earlier post](/docs/legacy/add_navbar)
 
 The default CSS provided by my current _Architect_ theme has two blocks on the bottom that use the `@media` rule in order to figure out the dimensions of the screen being displayed, and then modify the styles accordingly. However, while most components / styles were handled well, the `aside` which served as my navbar was simply being resized to fit 100% width and have no `min-height`, so that it would go above the main content.
 
